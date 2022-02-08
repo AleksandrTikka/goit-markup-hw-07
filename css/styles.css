@@ -809,7 +809,7 @@ img {
   transition: transform 250ms var(--transition-timing-function);
 }
 
-.close-btn {
+.close__btn {
   display: flex;
   position: absolute;
   top: 8px;
@@ -826,7 +826,7 @@ img {
   cursor: pointer;
 }
 
-.close-icon {
+.close__icon {
   width: 18px;
   height: 18px;
   fill: #000000;
@@ -834,12 +834,12 @@ img {
   transition: fill 250ms var(--transition-timing-function);
 }
 
-.close-btn:hover > .close-icon,
-.close-btn:focus > .close-icon {
+.close__btn:hover > .close__icon,
+.close__btn:focus > .close__icon {
   fill: var(--icon-accent);
 }
 
-.modal-title {
+.modal__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -849,7 +849,7 @@ img {
   color: var(--title-color);
 }
 
-.modal-form {
+.modal__form {
   padding: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -878,7 +878,7 @@ img {
   color: var(--primary-text-color);
 }
 
-.modal-form .label-icon {
+.modal__form .label-icon {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -918,7 +918,7 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field + .form-field {
+.form-field:not(:first-child) {
   margin-top: 28px;
 }
 
@@ -934,7 +934,7 @@ img {
   fill: var(--icon-accent);
 }
 
-.form-field-policy {
+.form-field__policy {
   text-align: center;
 }
 

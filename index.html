@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!--Шапка страницы-->
@@ -412,15 +413,15 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="close-btn" data-modal-close>
-                <svg class="close-icon">
+            <button type="button" class="close__btn" data-modal-close>
+                <svg class="close__icon">
                     <use href="images/sprite.svg#icon-close-black-18dp">
                     </use>
                 </svg>
             </button>
             
-            <form action="" class="modal-form">
-                <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form action="" class="modal__form">
+                <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
                 <div class="form-field">
                     <input type="name" name="name" id="user-name" class="form-input" placeholder=" ">
                     <label for="user-name" class="form-label">
@@ -452,7 +453,7 @@
                     <label for="user-comment" class="form-label">Комментарий</label>
                     <textarea name="comment" id="user-comment" class="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
                 </div>
-                <div class="form-field-policy">
+                <div class="form-field__policy">
                     
                         <input type="checkbox" class="checkbox" name="policy" id="policy-checkbox">
                         <label for="policy-checkbox" class="label-checkbox">
