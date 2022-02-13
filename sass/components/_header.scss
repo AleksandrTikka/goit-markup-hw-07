@@ -1,0 +1,16 @@
+.header {
+  background-color: $secondary-background-color;
+  border-bottom: 1px solid #ececec;
+
+  &__container {
+    @extend %container;
+    display: flex;
+
+    align-items: center;
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+  }
+}

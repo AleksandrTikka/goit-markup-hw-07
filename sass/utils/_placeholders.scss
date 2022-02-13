@@ -1,0 +1,36 @@
+%container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%link {
+  text-decoration: none;
+}
+
+%list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+%btn {
+  border-radius: 4px;
+  background-color: $accent-color;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+%text {
+  color: $primary-text-color;
+}
