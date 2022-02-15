@@ -1,6 +1,8 @@
 @import './utils/variables';
-@import './utils/reset';
 @import './utils/placeholders';
+
+@import './base/reset';
+
 @import './components/header';
 @import './components/site-nav';
 @import './components/logo';
@@ -20,3 +22,6 @@
 @import './components/backdrop';
 @import './components/modal';
 @import './components/modal__form';
+@import './components/portfolio';
+@import './components/filter';
+@import './components/type';
