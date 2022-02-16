@@ -28,7 +28,7 @@
   box-sizing: border-box;
   border-radius: 4px;
 
-  transition: border-color 250ms var(--transition-timing-function);
+  transition: border-color 250ms $transition-timing-function;
 
   &:hover,
   &:focus {
@@ -42,7 +42,7 @@
   height: 60px;
   fill: $icon-color;
 
-  transition: fill 250ms var(--transition-timing-function);
+  transition: fill 250ms $transition-timing-function;
 
   .clients__link:hover &,
   .clients__link:focus & {

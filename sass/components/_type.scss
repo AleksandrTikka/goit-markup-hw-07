@@ -9,7 +9,7 @@
   width: 370px; /*calc((100% - 60px) / 3);*/
   margin: 15px;
 
-  background-color: var(--secondary-background-color);
+  background-color: $secondary-background-color;
 }
 
 .type__link {

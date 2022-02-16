@@ -14,6 +14,7 @@
 
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scale(0.7);
+    transition: transform 250ms $transition-timing-function;
   }
 }
 
